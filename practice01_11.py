@@ -1,4 +1,4 @@
-# q11
+#q11
 
 def sum_num(num):
     total = 0
@@ -6,4 +6,5 @@ def sum_num(num):
         total += i
     return total
 
-print(sum_num(10))
+num = input()
+print(sum_num(int(num)))

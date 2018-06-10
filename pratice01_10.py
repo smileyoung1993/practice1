@@ -1,12 +1,9 @@
-# q 10
+#q10
 
-menu_dit = {300,"오뎅",400,"순대",500,"만두"}
+menu = input("선택 :")
 
-for price,menu in menu_dit.items():
-    if menu == '오뎅':
-        print("메뉴:",menu,"가격:",price)
-    else if menu == '순대':
-        print("메뉴:", menu, "가격:", price)
-    else if menu == '만두':
-        print("메뉴:", menu, "가격:", price)
+# dict = {key:value}
+menu_dit = {'오뎅':300,'순대':400,'만두':500}
+# menu에 따라서 메뉴 dict에서 가격값이 나온다.
 
+print('{0}:{1}'.format(menu, menu_dit[menu]),"원", end=" ")
