@@ -13,8 +13,8 @@ s = """
 import re
 
 def remove_tag(s):
-   cleanr =re.compile('<.*?>')
-   cleantext = re.sub(cleanr, '', s)
+   clear =re.compile('<.*?>')
+   cleantext = re.sub(clear, '', s)
    return cleantext
 
 print(remove_tag(s))
